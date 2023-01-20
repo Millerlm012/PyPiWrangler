@@ -1,0 +1,15 @@
+# virtual environments
+venv
+env
+
+# python
+__pycache__
+buid/
+dist/
+*.egg-info
+*.tar.gz
+*.whl
+
+# other
+*.DS_Store
+.env
