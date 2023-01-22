@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.1'
+VERSION = '1.0.0'
 DESCRIPTION = 'PyPi Wrangler is a tool to assist in the packaging of python dependencies..'
 LONG_DESCRIPTION = 'PyPi Wrangler is a tool to assist in the packaging of python dependenices for people who are wanting to self host the packages.'
 
