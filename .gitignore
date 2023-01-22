@@ -4,7 +4,7 @@ env
 
 # python
 __pycache__
-buid/
+build/
 dist/
 *.egg-info
 *.tar.gz
