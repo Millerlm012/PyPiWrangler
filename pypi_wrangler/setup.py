@@ -5,7 +5,7 @@ DESCRIPTION = 'PyPi Wrangler is a tool to assist in the packaging of python depe
 LONG_DESCRIPTION = 'PyPi Wrangler is a tool to assist in the packaging of python dependenices for people who are wanting to self host the packages.'
 
 setup(
-        name="pypi-wrangler", 
+        name="pypi_wrangler", 
         version=VERSION,
         author="Landon Miller",
         author_email="millerlm012@email.com",
@@ -13,7 +13,7 @@ setup(
         description=DESCRIPTION,
         long_description=LONG_DESCRIPTION,
         packages=find_packages(),
-        install_requires=['requests'],
+        install_requires=[],
         
         keywords=['python', 'pypi', 'wrangler'],
         classifiers= [

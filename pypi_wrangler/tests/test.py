@@ -1,5 +1,5 @@
 import sys
-sys.path.append('../pypi-wrangler')
+sys.path.append('../pypi_wrangler')
 import wrangle
 
 def main():
@@ -7,7 +7,7 @@ def main():
     For right now we're just testing the main functionality to build the "dist" directory.
     """
     
-    wrangle.dist('./requests_packages', './packages', True)
+    wrangle.create_dist('./requests_packages', './packages', True)
 
 
 if __name__ == '__main__':

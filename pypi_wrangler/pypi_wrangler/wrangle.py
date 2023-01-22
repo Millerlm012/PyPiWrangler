@@ -25,7 +25,7 @@ def get_package_name(file_name):
         package_name = package_name[:-1]
     return package_name
 
-def dist(from_path, to_path, cleanup=False):
+def create_dist(from_path, to_path, cleanup=False):
     """
     Use this function to create a "dist" directory in "to_path" with all package files contained inside it from "from_path".
     """

@@ -28,10 +28,10 @@ The following lines would install all `.whl`'s and `.tar.gz`'s for the requests 
 To build a `/dist`, simply ensure you have all packages and dependencies installed into a singular directory [Downloading all packages](#21-downloading-all-packages). Once that has been taken care of, in Python:
 
 ```
-import pypi_wrangler
+import pypi_wrangler as wrangler
 
 # building a "./dist" in to_path
-pypi_wrangler.wrangle.dist(from_path='./packages', to_path='./cleaned/', cleanup=True)
+wrangler.create_dist(from_path='./packages', to_path='./cleaned/', cleanup=True)
 ```
 
 NOTE: the `cleanup` parameter is optional. If the `cleanup` boolean is `True`, and we successfully created the new dist, we remove the original `from_path` directory and anything lying inside of it. By default it's defined to `False` as it's better not assume that the user is wanting to delete the original directory and EVERYTHING inside of it.
