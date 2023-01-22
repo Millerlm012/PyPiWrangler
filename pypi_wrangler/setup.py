@@ -17,11 +17,9 @@ setup(
         
         keywords=['python', 'pypi', 'wrangler'],
         classifiers= [
-            "Development Status :: Alpha",
-            "Intended Audience :: Engineers / Dev Ops",
-            "Programming Language :: Python :: 3",
-            "Operating System :: MacOS :: MacOS X",
-            "Operating System :: Microsoft :: Windows",
-            "Operating System :: Linux"
+            "Development Status :: 5 - Production/Stable",
+            "Intended Audience :: Developers",
+            "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+            "Programming Language :: Python :: 3.9"
         ]
 )

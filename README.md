@@ -11,7 +11,7 @@ To easily collect Python dependencies that you need and prep them for you to eas
 
 ## 1. Building Package
 
-`python3 setup.py sdist bdist_wheel` will create the required `build`, `dist`, `PyPi-Wrangler.egg-info`.
+`python3 -m build` will create the required `build`, `dist`, `PyPi-Wrangler.egg-info`.
 
 ## 2. Using PyPi Wrangler
 
